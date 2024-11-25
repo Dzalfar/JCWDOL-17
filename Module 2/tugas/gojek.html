@@ -24,12 +24,15 @@
         width: 100%;
         top: 0;
         z-index: 1000;
+        flex-wrap: wrap;
       }
 
       nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
       }
 
       .logo img {
@@ -57,7 +60,7 @@
       }
 
       .hero {
-        background-image: url("your-background-image.jpg");
+        background-image: url("https://cdn-site.gojek.com/uploads/hero_b18c33ed07.jpg");
         background-size: cover;
         background-position: center;
         height: 100vh;
@@ -66,7 +69,7 @@
         align-items: center;
         text-align: center;
         color: #fff;
-        margin-top: 80px; /* adjust for the fixed header */
+        margin-top: auto; /* adjust for the fixed header */
       }
 
       .hero-content h1 {
